@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-has-arraybuffer-support",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Detect native ArrayBuffer support.",
   "license": "Apache-2.0",
   "author": {
