@@ -24,32 +24,30 @@ limitations under the License.
 
 > Detect native [`ArrayBuffer`][mdn-arraybuffer] support.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-has-arraybuffer-support
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-hasArrayBufferSupport = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arraybuffer-support@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arraybuffer-support@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.hasArrayBufferSupport;
-})();
-</script>
+var hasArrayBufferSupport = require( '@stdlib/assert-has-arraybuffer-support' );
 ```
 
 #### hasArrayBufferSupport()
@@ -71,13 +69,8 @@ var bool = hasArrayBufferSupport();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arraybuffer-support@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var hasArrayBufferSupport = require( '@stdlib/assert-has-arraybuffer-support' );
 
 var bool = hasArrayBufferSupport();
 if ( bool ) {
@@ -85,18 +78,65 @@ if ( bool ) {
 } else {
     console.log( 'Environment lacks ArrayBuffer support.' );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use the module as a general utility, install the module globally
+
+```bash
+npm install -g @stdlib/assert-has-arraybuffer-support
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: has-arraybuffer-support [options]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ has-arraybuffer-support
+<boolean>
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -187,6 +227,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/assert-has-arraybuffer-support/tree/deno
 [umd-url]: https://github.com/stdlib-js/assert-has-arraybuffer-support/tree/umd
 [esm-url]: https://github.com/stdlib-js/assert-has-arraybuffer-support/tree/esm
+[branches-url]: https://github.com/stdlib-js/assert-has-arraybuffer-support/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-has-arraybuffer-support/main/LICENSE
 
@@ -194,27 +235,27 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/has-float32array-support]: https://github.com/stdlib-js/assert-has-float32array-support/tree/umd
+[@stdlib/assert/has-float32array-support]: https://github.com/stdlib-js/assert-has-float32array-support
 
-[@stdlib/assert/has-float64array-support]: https://github.com/stdlib-js/assert-has-float64array-support/tree/umd
+[@stdlib/assert/has-float64array-support]: https://github.com/stdlib-js/assert-has-float64array-support
 
-[@stdlib/assert/has-int16array-support]: https://github.com/stdlib-js/assert-has-int16array-support/tree/umd
+[@stdlib/assert/has-int16array-support]: https://github.com/stdlib-js/assert-has-int16array-support
 
-[@stdlib/assert/has-int32array-support]: https://github.com/stdlib-js/assert-has-int32array-support/tree/umd
+[@stdlib/assert/has-int32array-support]: https://github.com/stdlib-js/assert-has-int32array-support
 
-[@stdlib/assert/has-int8array-support]: https://github.com/stdlib-js/assert-has-int8array-support/tree/umd
+[@stdlib/assert/has-int8array-support]: https://github.com/stdlib-js/assert-has-int8array-support
 
-[@stdlib/assert/has-node-buffer-support]: https://github.com/stdlib-js/assert-has-node-buffer-support/tree/umd
+[@stdlib/assert/has-node-buffer-support]: https://github.com/stdlib-js/assert-has-node-buffer-support
 
-[@stdlib/assert/has-sharedarraybuffer-support]: https://github.com/stdlib-js/assert-has-sharedarraybuffer-support/tree/umd
+[@stdlib/assert/has-sharedarraybuffer-support]: https://github.com/stdlib-js/assert-has-sharedarraybuffer-support
 
-[@stdlib/assert/has-uint16array-support]: https://github.com/stdlib-js/assert-has-uint16array-support/tree/umd
+[@stdlib/assert/has-uint16array-support]: https://github.com/stdlib-js/assert-has-uint16array-support
 
-[@stdlib/assert/has-uint32array-support]: https://github.com/stdlib-js/assert-has-uint32array-support/tree/umd
+[@stdlib/assert/has-uint32array-support]: https://github.com/stdlib-js/assert-has-uint32array-support
 
-[@stdlib/assert/has-uint8array-support]: https://github.com/stdlib-js/assert-has-uint8array-support/tree/umd
+[@stdlib/assert/has-uint8array-support]: https://github.com/stdlib-js/assert-has-uint8array-support
 
-[@stdlib/assert/has-uint8clampedarray-support]: https://github.com/stdlib-js/assert-has-uint8clampedarray-support/tree/umd
+[@stdlib/assert/has-uint8clampedarray-support]: https://github.com/stdlib-js/assert-has-uint8clampedarray-support
 
 <!-- </related-links> -->
 
