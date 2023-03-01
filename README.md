@@ -37,6 +37,7 @@ Alternatively,
 -   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
 -   If you are using Deno, visit the [`deno` branch][deno-url].
 -   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
 The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
@@ -94,10 +95,10 @@ if ( bool ) {
 
 ## Installation
 
-To use the module as a general utility, install the module globally
+To use as a general utility, install the CLI package globally
 
 ```bash
-npm install -g @stdlib/assert-has-arraybuffer-support
+npm install -g @stdlib/assert-has-arraybuffer-support-cli
 ```
 
 </section>
@@ -146,17 +147,17 @@ $ has-arraybuffer-support
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/has-float32array-support`][@stdlib/assert/has-float32array-support]</span><span class="delimiter">: </span><span class="description">detect native Float32Array support.</span>
--   <span class="package-name">[`@stdlib/assert/has-float64array-support`][@stdlib/assert/has-float64array-support]</span><span class="delimiter">: </span><span class="description">detect native Float64Array support.</span>
--   <span class="package-name">[`@stdlib/assert/has-int16array-support`][@stdlib/assert/has-int16array-support]</span><span class="delimiter">: </span><span class="description">detect native Int16Array support.</span>
--   <span class="package-name">[`@stdlib/assert/has-int32array-support`][@stdlib/assert/has-int32array-support]</span><span class="delimiter">: </span><span class="description">detect native Int32Array support.</span>
--   <span class="package-name">[`@stdlib/assert/has-int8array-support`][@stdlib/assert/has-int8array-support]</span><span class="delimiter">: </span><span class="description">detect native Int8Array support.</span>
--   <span class="package-name">[`@stdlib/assert/has-node-buffer-support`][@stdlib/assert/has-node-buffer-support]</span><span class="delimiter">: </span><span class="description">detect native Buffer support.</span>
--   <span class="package-name">[`@stdlib/assert/has-sharedarraybuffer-support`][@stdlib/assert/has-sharedarraybuffer-support]</span><span class="delimiter">: </span><span class="description">detect native SharedArrayBuffer support.</span>
--   <span class="package-name">[`@stdlib/assert/has-uint16array-support`][@stdlib/assert/has-uint16array-support]</span><span class="delimiter">: </span><span class="description">detect native Uint16Array support.</span>
--   <span class="package-name">[`@stdlib/assert/has-uint32array-support`][@stdlib/assert/has-uint32array-support]</span><span class="delimiter">: </span><span class="description">detect native Uint32Array support.</span>
--   <span class="package-name">[`@stdlib/assert/has-uint8array-support`][@stdlib/assert/has-uint8array-support]</span><span class="delimiter">: </span><span class="description">detect native Uint8Array support.</span>
--   <span class="package-name">[`@stdlib/assert/has-uint8clampedarray-support`][@stdlib/assert/has-uint8clampedarray-support]</span><span class="delimiter">: </span><span class="description">detect native Uint8ClampedArray support.</span>
+-   <span class="package-name">[`@stdlib/assert-has-float32array-support`][@stdlib/assert/has-float32array-support]</span><span class="delimiter">: </span><span class="description">detect native Float32Array support.</span>
+-   <span class="package-name">[`@stdlib/assert-has-float64array-support`][@stdlib/assert/has-float64array-support]</span><span class="delimiter">: </span><span class="description">detect native Float64Array support.</span>
+-   <span class="package-name">[`@stdlib/assert-has-int16array-support`][@stdlib/assert/has-int16array-support]</span><span class="delimiter">: </span><span class="description">detect native Int16Array support.</span>
+-   <span class="package-name">[`@stdlib/assert-has-int32array-support`][@stdlib/assert/has-int32array-support]</span><span class="delimiter">: </span><span class="description">detect native Int32Array support.</span>
+-   <span class="package-name">[`@stdlib/assert-has-int8array-support`][@stdlib/assert/has-int8array-support]</span><span class="delimiter">: </span><span class="description">detect native Int8Array support.</span>
+-   <span class="package-name">[`@stdlib/assert-has-node-buffer-support`][@stdlib/assert/has-node-buffer-support]</span><span class="delimiter">: </span><span class="description">detect native Buffer support.</span>
+-   <span class="package-name">[`@stdlib/assert-has-sharedarraybuffer-support`][@stdlib/assert/has-sharedarraybuffer-support]</span><span class="delimiter">: </span><span class="description">detect native SharedArrayBuffer support.</span>
+-   <span class="package-name">[`@stdlib/assert-has-uint16array-support`][@stdlib/assert/has-uint16array-support]</span><span class="delimiter">: </span><span class="description">detect native Uint16Array support.</span>
+-   <span class="package-name">[`@stdlib/assert-has-uint32array-support`][@stdlib/assert/has-uint32array-support]</span><span class="delimiter">: </span><span class="description">detect native Uint32Array support.</span>
+-   <span class="package-name">[`@stdlib/assert-has-uint8array-support`][@stdlib/assert/has-uint8array-support]</span><span class="delimiter">: </span><span class="description">detect native Uint8Array support.</span>
+-   <span class="package-name">[`@stdlib/assert-has-uint8clampedarray-support`][@stdlib/assert/has-uint8clampedarray-support]</span><span class="delimiter">: </span><span class="description">detect native Uint8ClampedArray support.</span>
 
 </section>
 
@@ -220,6 +221,10 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib]: https://github.com/stdlib-js/stdlib
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
+
+[cli-section]: https://github.com/stdlib-js/assert-has-arraybuffer-support#cli
+[cli-url]: https://github.com/stdlib-js/assert-has-arraybuffer-support/tree/cli
+[@stdlib/assert-has-arraybuffer-support]: https://github.com/stdlib-js/assert-has-arraybuffer-support/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
