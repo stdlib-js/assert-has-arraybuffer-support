@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-has-arraybuffer-support",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Detect native ArrayBuffer support.",
   "license": "Apache-2.0",
   "author": {
@@ -40,7 +40,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-float64": "^0.1.0",
+    "@stdlib/array-float64": "^0.1.1",
     "@stdlib/assert-is-arraybuffer": "^0.1.1",
     "@stdlib/cli-ctor": "^0.1.1",
     "@stdlib/fs-read-file": "^0.1.1"
