@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hasArrayBufferSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arraybuffer-support@esm/index.mjs';
+import hasArrayBufferSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arraybuffer-support@v0.2.1-esm/index.mjs';
 ```
 
 #### hasArrayBufferSupport()
@@ -70,7 +70,7 @@ var bool = hasArrayBufferSupport();
 <body>
 <script type="module">
 
-import hasArrayBufferSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arraybuffer-support@esm/index.mjs';
+import hasArrayBufferSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arraybuffer-support@v0.2.1-esm/index.mjs';
 
 var bool = hasArrayBufferSupport();
 if ( bool ) {
